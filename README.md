@@ -14,3 +14,19 @@ Via GCC compiler with the -lm flag to compile the math library.
 ```bash;
 gcc binaryClock.c -o compiledBinaryClock -lm
 ```
+Sample output: 
+
+```
+Fri May 24 00:20:23 2024
+Standard 24-hr time:0 hours, 20 minutes, 23 seconds
+
+bitflag version: 
+000000 - hours
+0|0|00 - minutes
+0|0||| - seconds
+
+Recursive version: 
+000000 - hours
+0|0|00 - minutes
+0|0||| - seconds
+```
